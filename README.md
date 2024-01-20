@@ -49,3 +49,7 @@ pyinstaller --onefile --windowed --icon=img/logo.ico --name=PNGtoICO --version-f
 ## Executable
 
 In the `build` folder, you will find the file `PNGtoICO.zip`, which contains the executable version of the `converter.pyw` script.
+
+## Screenshot
+
+![Screenshot PNGtoICO](img/screenshot.png)
