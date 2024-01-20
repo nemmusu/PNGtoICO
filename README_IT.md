@@ -40,7 +40,8 @@ python converter.pyw
 pip install pyinstaller
 ```
 
-2. Una volta installato PyInstaller, puoi utilizzarlo per creare un eseguibile dallo script Python. Ecco un esempio di comando per creare un eseguibile su Windows:
+2. Una volta installato PyInstaller, puoi utilizzarlo per creare un eseguibile dallo script Python. Il file `version_info.txt` contiene le informazioni sull'eseguibile da creare. Ecco un esempio di comando per creare un eseguibile su Windows:
+
 
 ```shell
 pyinstaller --onefile --windowed --icon=img/logo.ico --name=PNGtoICO --version-file=version_info.txt converter.pyw

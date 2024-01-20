@@ -40,7 +40,7 @@ python converter.pyw
 pip install pyinstaller
 ```
 
-2. Once PyInstaller is installed, you can use it to create an executable from your Python script. Here is an example command to create an executable on Windows:
+2. Once PyInstaller is installed, you can use it to create an executable from your Python script. The file `version_info.txt` contains information about the executable to be created. Here is an example command to create an executable on Windows:
 
 ```shell
 pyinstaller --onefile --windowed --icon=img/logo.ico --name=PNGtoICO --version-file=version_info.txt converter.pyw
